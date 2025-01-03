@@ -19,7 +19,6 @@ Key features:
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
 - [Architecture](#architecture)
-- [License](#license)
 
 ---
 
@@ -98,16 +97,20 @@ Key features:
 ### Key Components
 
 1. Controller:
-- AuthController handles authentication logic (signup/login).
+- **AuthController** handles authentication logic (signup/login).
 
 2. Service:
-- AuthService for user-related operations.
-- UserService for Spring Security integration.
+- **AuthService** for user-related operations.
+- **UserService** for Spring Security integration.
   
 3. Security:
 
-- WebSecurityConfiguration for security filters and role-based access.
-- JwtAuthenticationFilter for validating JWT tokens.
+- **WebSecurityConfiguration** for security filters and role-based access.
+- **JwtAuthenticationFilter** for validating JWT tokens.
 - 
 4. Persistence:
-- UserRepository for database operations.
+- **UserRepository** for database operations.
+
+```bash
+   [Client] --> [AuthController] --> [AuthService] --> [UserRepository]
+        <-- JWT Token
