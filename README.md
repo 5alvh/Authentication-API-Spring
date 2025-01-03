@@ -67,3 +67,17 @@ Key features:
    mvn spring-boot:run
 4. Access the API documentation at http://localhost:8080/swagger-ui.html (if Swagger is configured) or use tools like Postman for API testing.
 
+   ---
+
+## API Endpoints
+### Authentication
+- **POST /api/auth/signup**
+-- Description: Register a new user.
+-- Request Body:
+   ```bash
+   {
+     "name": "John Doe",
+     "email": "john.doe@example.com",
+     "password": "yourpassword"
+   }
+
