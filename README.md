@@ -80,4 +80,13 @@ Key features:
      "email": "test@example.com",
      "password": "test"
    }
+- **POST /api/auth/login**
+- Description: Authenticate an existing user.
+- Request Body:
+   ```bash
+   {
+  "email": "test@example.com",
+  "password": "testtest"
+   }
+
 
