@@ -72,12 +72,12 @@ Key features:
 ## API Endpoints
 ### Authentication
 - **POST /api/auth/signup**
--- Description: Register a new user.
--- Request Body:
+- Description: Register a new user.
+- Request Body:
    ```bash
    {
-     "name": "John Doe",
-     "email": "john.doe@example.com",
-     "password": "yourpassword"
+     "name": "Salah Eddine Khouadri",
+     "email": "test@example.com",
+     "password": "test"
    }
 
