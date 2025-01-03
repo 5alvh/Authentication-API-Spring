@@ -88,5 +88,26 @@ Key features:
   "email": "test@example.com",
   "password": "testtest"
    }
+### Authentication
+- Admin: /api/admin/** (Accessible to users with Admin role only).
+- Customer: /api/customer/** (Accessible to users with Customer role only).
 
+    ---
+  
+## Architecture
+### Key Components
 
+1. Controller:
+- AuthController handles authentication logic (signup/login).
+
+2. Service:
+- AuthService for user-related operations.
+- UserService for Spring Security integration.
+  
+3. Security:
+
+- WebSecurityConfiguration for security filters and role-based access.
+- JwtAuthenticationFilter for validating JWT tokens.
+- 
+4. Persistence:
+- UserRepository for database operations.
