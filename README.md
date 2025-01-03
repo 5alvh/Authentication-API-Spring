@@ -51,7 +51,7 @@ Key features:
 
 1. Install **Java JDK 11+**.
 2. Install **Maven** for dependency management.
-3. A database such as **H2** (default), **MySQL**, or **PostgreSQL**.
+3. A database such as **H2**, **MySQL**, or **PostgreSQL**.
 
 ### Installation
 
