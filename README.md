@@ -56,7 +56,7 @@ Key features:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/auth-api.git
+   git clone https://github.com/5alvh/Authentication-API-Spring-Boot.git
    cd auth-api
 2. Build the project:
    ```bash
