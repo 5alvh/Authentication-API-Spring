@@ -29,7 +29,7 @@ Key features:
 - **Spring Security** for authentication and authorization.
 - **JWT** for token-based security.
 - **Hibernate** as ORM.
-- **H2/Database** for local development (easily replaceable with MySQL, PostgreSQL, etc.).
+- **MYSQL** for local development.
 - **Maven** for dependency management.
 
 ---
